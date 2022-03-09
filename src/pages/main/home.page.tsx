@@ -1,10 +1,6 @@
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { Row } from "../../components/common";
 
 export default function HomePage() {
-  const navigate = useNavigate();
-
   return (
     <Row>
       <h1 style={{ color: "#DDD" }}>일대기 입니다.</h1>
